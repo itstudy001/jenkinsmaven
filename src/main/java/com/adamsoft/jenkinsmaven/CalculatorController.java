@@ -15,7 +15,7 @@ public class CalculatorController {
 
     @RequestMapping("/")
     public String index(){
-        return "health check";
+        return "헬스 체크";
     }
     @RequestMapping("/add")
     public String add(@RequestParam("num1") int num1, @RequestParam("num2") int num2){
