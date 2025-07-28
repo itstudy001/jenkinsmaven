@@ -6,6 +6,7 @@ import org.testng.annotations.BeforeGroups;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.Assert;
+
 public class TestAdditionFunctionality 
 {
 	
@@ -39,7 +40,7 @@ public class TestAdditionFunctionality
 	{
 		System.out.println("I am in 1 st TestCase");
 		Result=Obj.addition(10,20);
-		Assert.assertEquals(Result, 30,"Addition does not work with positive numbers");
+		Assert.assertEquals(Result, 300,"Addition does not work with positive numbers");
 	}
 
 	@AfterClass
