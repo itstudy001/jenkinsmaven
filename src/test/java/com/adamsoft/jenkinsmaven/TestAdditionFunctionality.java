@@ -9,8 +9,6 @@ import org.testng.Assert;
 
 public class TestAdditionFunctionality 
 {
-	
-	
 	Calculator Obj;
 	int Result;
 	
